@@ -1,3 +1,45 @@
+* {
+  background-color: #2d312a;
+  color: white ;
+  margin: 0;
+  padding: 0;
+}
+.link {
+  text-decoration: none;
+  color: white ;
+  padding: 5px;
+  
+}
+.link:hover {
+  color: orange ;
+} 
+.media{
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 400px;
+  padding: 5px;
+  margin: 5px 0;
+  background-color:#282c34;
+  border-radius: relative;
+}
+
+.media:hover{
+  background-color: white;
+  color: #000;
+}
+
+.poster-container {
+  height: 20em;
+  width: 100%;
+}
+
+.img-container {
+  height: 10em;
+  width: 10em;
+}
+
 .App {
   text-align: center;
 }
